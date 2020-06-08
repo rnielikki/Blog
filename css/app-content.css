@@ -127,9 +127,11 @@ h5, h6 {
 blockquote{
     border-left: 3px solid #ccc;
     margin: 0;
-    background-color: #9a9a9a63;
+    background-color: #9a9a9a47;
     font-family: monospace;
     font-size: 125%;
+    overflow-x: scroll;
+    width: calc(100vw - 5.5rem);
 }
 blockquote > p{
     padding: .6rem 1.25rem;
