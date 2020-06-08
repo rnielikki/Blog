@@ -8,6 +8,8 @@
     <base href="/Blog/" />
     <link href="css/app.css" rel="stylesheet" />
     <link href="css/app-content.css" rel="stylesheet" />
+    <link href="prism/prism.css" rel="stylesheet" />
+    <script src="prism/prism.js"></script>
     <!-- Start Single Page Apps for GitHub Pages -->
     <script type="text/javascript">
             // Single Page Apps for GitHub Pages
@@ -37,6 +39,7 @@
                     }
                 }
             }(window.location))
+            Prism.GetPrismLanguages = () => Object.keys(Prism.languages);
     </script>
 </head>
 
