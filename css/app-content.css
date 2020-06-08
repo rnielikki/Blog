@@ -130,7 +130,7 @@ blockquote{
     background-color: #9a9a9a47;
     font-family: monospace;
     font-size: 125%;
-    overflow-x: scroll;
+    overflow-x: auto;
     width: calc(100vw - 5.5rem);
 }
 blockquote > p{
