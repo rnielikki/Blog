@@ -130,6 +130,8 @@ blockquote{
     background-color: #9a9a9a47;
     font-family: monospace;
     font-size: 125%;
+}
+blockquote, pre {
     overflow-x: auto;
     width: calc(100vw - 5.5rem);
 }
@@ -165,6 +167,7 @@ blockquote > p{
 .main-post-content {
     margin: 1.1rem 0;
 }
+
 @media screen and (min-width:768px) {
     .main-list-posts {
         display: grid;
@@ -179,5 +182,9 @@ blockquote > p{
         border: 1px solid #666;
         padding: 1rem 1.6rem;
         margin-bottom: 1.27rem;
+    }
+
+    blockquote, pre {
+        width: calc(100vw - 20.5rem);
     }
 }
