@@ -96,9 +96,18 @@ h5, h6 {
     }
 
 /* --- Posts --- */
-.post-content img {
-    max-width:100%;
+.post-edit {
+    position:absolute;
+    top:0;
+    right:0;
+    margin-right:.8rem;
 }
+
+    .post-edit, .post-edit img {
+        width:3.5rem;
+        height:3.5rem;
+    }
+
 .post-title {
     font-weight: 400;
     text-align: center;
@@ -106,6 +115,13 @@ h5, h6 {
     border-bottom: 1px solid #707070ab;
     padding-bottom: .74rem;
 }
+
+.post-content img {
+    max-width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
 .post-tags {
     margin-top:2.45rem;
 }
@@ -187,4 +203,8 @@ blockquote > p{
     blockquote, pre {
         width: calc(100vw - 20.5rem);
     }
+}
+/* prism */
+:not(pre) > code[class*="language-"], pre[class*="language-"] {
+    box-sizing:border-box;
 }
