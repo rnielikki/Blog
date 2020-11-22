@@ -37,11 +37,13 @@ h5, h6 {
     color: #fff;
 }
 
-    .main.black a, .main.dark a {
+    .main.black .content a:not(.tag-label),
+    .main.dark .content a:not(.tag-label) {
         color: #9fc1ff;
     }
 
-        .main.black a:hover, .main.dark a:hover {
+        .main.black .content a:not(.tag-label):hover,
+        .main.dark .content a:not(.tag-label):hover {
             color: #acf8fb
         }
 

@@ -177,6 +177,7 @@ app {
 }
     .tagcloud a {
         color:#95dcf3;
+        display:inline-block;
     }
         .tagcloud a:hover {
             color:#fff;
