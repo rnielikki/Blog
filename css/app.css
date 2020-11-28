@@ -272,3 +272,33 @@ app {
         transform: scale(1.0);
     }
 }
+
+@media print {
+    div.main {
+        display:block !important;
+    }
+    app {
+        overflow:visible;
+    }
+    .main > div:not(.content) {
+        display:none;
+    }
+    div.main.black, div.main.dark {
+        background-color:#fff;
+        color:#000;
+    }
+    a {
+        color:#303030 !important;
+        border-bottom:1px solid #a0a0a0;
+    }
+    h1.post-title {
+        border-bottom:none;
+        margin-bottom:0;
+    }
+    .post-edit, .post-tags {
+        display:none;
+    }
+    code > span {
+        white-space: pre-wrap;
+    }
+}
